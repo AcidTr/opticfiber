@@ -9,8 +9,8 @@ The countmr() routine count the time and It is activated when there's an interru
 The botao() routine is the interrupt at RB1 pin. In the ISIS design, It is a button that simulate a photodiode recieving the 
       light from the opctic fiber.
 The setPin() routine set the pif18f4550 configs.
-The delayM() routine is designed to slow the instructions speed to set the LCD configs at set_LCD() routine.
-The converte(int c) converts an integer to ASCII character and the result is used to set LCD characters in these routines:
+The delayM() routine was designed to slow the instructions speed to set the LCD configs at set_LCD() routine.
+The converte(int c) routine converts an integer to ASCII character and the result is used to set LCD characters in these routines:
       contaMil_un(), contaMil_dez(), contaMil_cent(), contaMil_mil(), contaSeg_un(), contaSeg_dez(), contaMin_un() and contaMin_dez().
       Those routines are used in the mostraNumero() routine to show on the LCD the time counting in miliseconds.
 The mostravolta() routine shows a message in Portuguese/BR and the Interrupt counter at that moment.
