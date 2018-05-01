@@ -2,7 +2,7 @@
 
 author @Victor Mourão
 
-A program to control a pic18f4550 and count interrupts of light between two optic fibers.
+A program to control a pic18f4550 and count interrupts of light between two optic fibers.<br/>
 This code set an LCD 2x16 to show time counter in miliseconds and stop counting when the light is interrupted 
       3 times(The counter starts at 0 and ends at 3. So this is going to stops only after 4 interrupts. It needs to be fixed yet).
 The countmr() routine count the time and It is activated when there's an interrupt at TIMER0(TIMER0 is set inside main routine).
